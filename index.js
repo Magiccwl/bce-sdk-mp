@@ -1,1 +1,1 @@
-export {default as BosClient} from './lib/BosClient';
+export { default as BosClient } from './lib/BosClient'
