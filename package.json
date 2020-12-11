@@ -1,0 +1,42 @@
+{
+  "name": "bce-sdk-mp",
+  "version": "1.0.0",
+  "description": "Unofficial Baidu Cloud Engine JavaScript SDK For Mini-program.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magiccwl/bce-sdk-mp.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "fast-sha256": "^1.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "terser-webpack-plugin": "^3.1.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "peerDependencies": {
+    "axios": "^0.19.2"
+  },
+  "keywords": [
+    "bce",
+    "bos",
+    "sdk",
+    "mini-program"
+  ],
+  "author": "Jack Che",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Magiccwl/bce-sdk-mp/issues"
+  },
+  "homepage": "https://github.com/Magiccwl/bce-sdk-mp#readme"
+}
