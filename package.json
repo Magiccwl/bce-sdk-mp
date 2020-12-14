@@ -1,8 +1,12 @@
 {
   "name": "bce-sdk-mp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Unofficial Baidu Cloud Engine JavaScript SDK For Mini-program.",
   "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "build": "webpack",
     "lint": "eslint ./lib",
